@@ -1,0 +1,12 @@
+﻿1. Write a function called cubeInt that takes a single argument and returns the cube of its argument.
+2. Write a function called cube that takes a single argument and returns the cube of its argument. 
+3. Write a function called triple that takes a single argument and returns its argument multiplied by 3.
+4. Write a function called tripleCube that takes a single argument that returns 3 times the cube of its argument. Your solution should be the composition of two functions.
+5. Write a function called mult that takes two arguments and returns the product of its arguments. You may use + and - in your definition. You may not use the multiplication operator. (Pretend there isn't one and you are having to create it.) Make sure your solution is tail-recursive (iterative). You may need auxiliary (helper) functions to accomplish this.
+6. Using your multiplication function, define a function called mult5, that takes a single argument and returns a function that multiplies its argument by 5.
+7. Write a function called fibRec that takes a single argument n and returns the nth Fibonacci number. Your implementation should be a direct translation of the definition of Fibonacci numbers.
+8. Rewrite your fibRec function from the previous exercise to be iterative (tail-recursive). Call your new function fib.
+9. Write a function called firsts that takes a pair of pairs for its single argument and returns a pair consisting of the first element of each pair. Each interior pair should consist of a character and an integer. For example: (firsts '((a . 1) (b . 2))) should return '(a b). Write a corresponding function called seconds that returns the second elements.
+10. Define a predicate threeDifferent which takes three arguments. threeDifferent should return #t only if all three arguments are different.
+11. Define a function minThree which takes three arguments and returns the minimum of the three.
+12. Define a function concat which takes a list of lists and returns a single list consisting of all the lists concatenated together. For example (concat '((a b c) (d e) (f g h i))) = '(a b c d e f g h i)
